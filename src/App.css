@@ -1,0 +1,111 @@
+/* App.css */
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+
+.input-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.todo-item.done {
+  background-color: #d3ffd3;
+}
+
+.select-checkbox {
+  margin-right: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.3rem;
+}
+
+button {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.move-button {
+  background-color: yellow;
+}
+
+.done-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.action-button {
+  padding: 0.5rem 0.75rem;
+  margin: 0.2rem;
+  background-color: #a569bd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
